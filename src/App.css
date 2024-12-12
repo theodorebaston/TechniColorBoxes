@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  Min-width: 100vw;
+}
+
+.box-box {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-box {
+  background-color: #666b75;
+  height: 100px;
+  width: 100px;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

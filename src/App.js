@@ -1,21 +1,28 @@
 import './App.css';
 
-function App() {
+function Box({color}){
   return (
-    <div className="App">
-      <div className="box-box">
-        <div className="color-box"></div>
-        <div className="color-box"></div>
-        <div className="color-box"></div>
-        <div className="color-box"></div>
-        <div className="color-box"></div>
-        <div className="color-box"></div>
-        <div className="color-box"></div>
-        <div className="color-box"></div>
-        <div className="color-box"></div>
-      </div>
-    </div>
-  );
+    <div className="color-box" style={{backgroundColor: color}}></div>
+  )
 }
 
-export default App;
+export default function App() {
+  return (
+    <>
+    <div className="App">
+      <div className="box-box">
+        <Box color="#666b75" />
+        <Box color="#666b75" />
+        <Box color="#666b75" />
+        <Box color="#666b75" />
+        <Box color="#666b75" />
+        <Box color="#666b75" />
+        <Box color="#666b75" />
+        <Box color="#666b75" />
+        <Box color="#666b75" />
+      </div>
+    </div>
+    </>
+
+  );
+}

@@ -7,7 +7,7 @@
   Min-width: 100vw;
 }
 
-.box-box {
+.boxBox {
   width: 400px;
   display: flex;
   flex-wrap: wrap;
@@ -15,7 +15,7 @@
   justify-content: center;
 }
 
-.color-box {
+.colorBox {
   background-color: #666b75;
   height: 100px;
   width: 100px;

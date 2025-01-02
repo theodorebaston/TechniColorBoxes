@@ -1,8 +1,13 @@
 import Box from './box.js'
 
 export default function BoxBox() {
-    const boxes = [1,2,3,4,5,6,7,8,9]
-    boxes.length = 9;
+    
+    function BoxesArray() {
+        // This function will eventually determine a number of boxes based on the user's screen size.
+        return [1,2,3,4,5,6,7,8,9]
+    }
+    
+    const boxes = BoxesArray()
 
     return (
         <>

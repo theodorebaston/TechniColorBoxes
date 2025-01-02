@@ -12,8 +12,8 @@ export default function BoxBox() {
     return (
         <>
             <div className="boxBox">
-                {boxes.map(() => (
-                    <Box color="#666b75" />
+                {boxes.map((id) => (
+                    <Box key={id} />
                 ))}
             </div>
         </>

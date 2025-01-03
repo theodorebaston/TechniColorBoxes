@@ -4,23 +4,22 @@ import { useState } from 'react';
 
 export default function Box(){
 
-  const [hovered, setHovered] = useState(false);
   const [color, setColor] = useState('#666b75');
-
+  
   const handleMouseEnter = () => {
-    setHovered(true);
+    setColor(randomColor());
+  }
+  const handleMouseLeave = () => {
+    setColor(color)
   }
   
-  const handleMouseLeave = () => {
-    setHovered(false);
+  function randomColor() {
+    // colorArray: Red, Orange, Yellow, Green, Teal, Blue, Violet
+    const colorArray = ['#c14343', '#d08d47', '#d5c34b', '#2b8046', '#3f8197', '#3058a3', '#78568e'];
+    const randomIndex = Math.floor(Math.random() * colorArray.length);
+
+    return colorArray[randomIndex]
   }
-
-  // This is causing an infinite loop. I think if I create and array of colors to pick from and set the color === a random position in that array, I could bypass the Ternary operator and avoid the infinite loop. 
-  const boxColor = hovered ? '#78568e' : '#666b75';
-
-  const handleColorChange = () => {
-      setColor(color === '#666b75' ? '#78568e' : '#666b75');
-  } 
   
   return (
     <>
@@ -29,7 +28,7 @@ export default function Box(){
       onMouseLeave={handleMouseLeave}
 
       className="colorBox" 
-      style={{backgroundColor: boxColor}}
+      style={{backgroundColor: color}}
     >
     </div>
     </>

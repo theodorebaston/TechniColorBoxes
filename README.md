@@ -1,5 +1,7 @@
 # Technicolor Boxes
-In this project, I learned React.js by creating a webpage full of boxes that change color when they are hovered over. The boxes maintain their new color until hovered over again.
+In this project, I learned React.js by creating a webpage full of boxes that change color when they are hovered over. The boxes maintain their new color until hovered over again. It looks like this!:
+
+![A demo of my technicolor boxes project](./public/TechnicolorBoxesDemo.gif)
 
 I found this to be a great introduction to React. Below I have compiled lists of my successes and struggles with this project, as well as my biggest takeaway. Thanks for checking out my project!
 

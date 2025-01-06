@@ -1,5 +1,5 @@
 import './App.css';
-import BoxBox from './box-box.js';
+import BoxBox from './boxBox.js';
 
 export default function App() {
   return (

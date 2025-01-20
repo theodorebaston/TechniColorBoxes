@@ -12,7 +12,6 @@ I found this to be a great introduction to React. Below I have compiled lists of
 
 ## The Struggles!
 - I learned in this project to follow the tutorial all the way through. Several times I learned a piece of information that I could immediately apply to this project and would do so to great effect!... Until the next step where I would try to figure something out to no avail before return to the tutorial. Lo and behold, that next step was often the nect step in the tutorial.
--
 
 ## My Biggest Takeaway
-Learning and feeling more confident with React has been a very rewarding experience. As someone who enjoys front end design, It's very fulfilling to see my ideas come to life on the page. Though this was ultimately a tiny project, it sent my mind soaring with possibilities. I can't wait to get to the Next(.js) one!
+- Learning and feeling more confident with React has been a very rewarding experience. As someone who enjoys front end design, It's very fulfilling to see my ideas come to life on the page. Though this was ultimately a tiny project, it sent my mind soaring with possibilities. I can't wait to get to the Next(.js) one!
